@@ -50,7 +50,7 @@ class Baidu_Travel_Maps {
 		$this->settings = get_option( 'travel_maps_settings' );
 
 		// Set the plugin url
-		$this->plugin_url = WP_PLUGIN_URL . DIRECTORY_SEPARATOR . plugin_basename( __DIR__ ) . DIRECTORY_SEPARATOR;
+		$this->plugin_url = WP_PLUGIN_URL . '/' . plugin_basename( __DIR__ ) . '/';
 
 		load_plugin_textdomain( 'travel-maps', false, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
 

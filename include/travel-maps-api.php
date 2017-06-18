@@ -42,7 +42,7 @@ class Baidu_Travel_Maps_API {
                     var points_in_route = new Array();
                     var route_color;
                     var route_colors = new Array();
-                    // for debug alert('<?php echo $id; ?>');
+					<?php if (is_array($markers) || is_object($markers)){ ?>
 					<?php foreach($markers as $marker_count => $marker) : ?>
 
 					<?php
@@ -80,6 +80,7 @@ class Baidu_Travel_Maps_API {
                         route_colors.push(route_color);
                     }
 					<?php endforeach; ?>
+					<?php } ?>
                     for (var i=1;i<points_in_route.length;i++){ 
                         var polyline = new BMap.Polyline(points_in_route.slice(i-1,i+1) , {strokeColor:'blue', strokeWeight:3, strokeOpacity:0.5});
                         map.addOverlay(polyline);
