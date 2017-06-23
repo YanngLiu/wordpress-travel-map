@@ -3,11 +3,12 @@
 Plugin Name: Travel Map
 Description: A Travel Map Wordpress Plugin based on Baidu maps
 Version: 1.0
-Author: Liu Yang
+Author: Liu Yang, Samuel Jesse, uditvirwani
 Author URI: http://blog.grainbuds.net
 License:
 
-  Copyright 2017 Liu Yang (yaang.liu@gmail.com)
+  Copyright 2015 Samuel Jesse (samueljesse@digitalcreative.asia)
+  Copyright 2017 Yang Liu (yaang.liu@gmail.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License, version 2, as
